@@ -1,1 +1,21 @@
-font-family: "Rubik", sans-serif;
+* {
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+.header {
+  border: salmon 3px solid;
+  background-color: salmon;
+}
+
+.logo {
+  background-color: rgb(124, 160, 95);
+}
+
+.menu {
+  background-color: blue;
+}
+
+.main {
+  background-color: #3cdbc0;
+}
