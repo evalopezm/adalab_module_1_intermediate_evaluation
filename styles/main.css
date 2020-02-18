@@ -31,18 +31,19 @@
 
 .logo {
   width: 155px;
+  padding: 10px;
 }
 
-.menubutton {
+.menu-button {
   display: inline-block;
   text-transform: uppercase;
 }
 
-.menulink {
+.menu-link {
   color: #4a4a4a;
   text-decoration: none;
-  padding-left: 10px;
-  padding-right: 10px;
+  display: inline-block;
+  padding: 10px;
   font-size: 16px;
 }
 
@@ -76,21 +77,14 @@ img {
 @media all and (min-width: 768px) {
   .header {
     height: 70px;
-    z-index: 1;
     flex-direction: row;
     justify-content: space-between;
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 20px;
-    padding-bottom: 13px;
   }
 
   .main-text-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    color: white;
     font-size: 40px;
   }
 }
